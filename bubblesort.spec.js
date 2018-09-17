@@ -5,7 +5,7 @@ describe('Bubble Sort', function(){
       });
       it('correctly sorting the numbers with bubble sort takes array.length swaps', function () {
         bubbleSort([1, 5, 8, 2]);
-        expect(window.swap.calls.count()).toEqual(4);
+        expect(window.swap.calls.count()).toEqual(2);
       });
       
     it('handles an empty array', function(){
